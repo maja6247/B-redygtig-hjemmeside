@@ -1,0 +1,130 @@
+*{
+    background-color: #000000;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+section {
+    
+    border: 1px solid #000000;
+   
+}   
+
+header {
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+main {
+    min-height: 100px;
+}
+
+
+/* Knapper */
+.btn-group button {
+    background-color: #113912; 
+    border: 1px solid rgb(7, 67, 7); 
+    color: white; /* White text */
+    padding: 10px 4px; 
+    cursor: pointer; 
+    float: left; 
+    height: 100px;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .btn-group:after {
+    clear: both;
+    display: table;
+  }
+
+  .btn-group button:hover {
+    background-color: rgb(35, 103, 35)
+  }
+
+
+
+
+
+  /* Navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: rgb(246, 238, 238);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .pill-nav a:hover {
+    background-color: rgb(124, 174, 124);
+    color: black;
+  }
+  
+
+  .pill-nav a.active {
+    background-color:rgb(7, 67, 7); 
+    color: white;
+  }
+
+h2 {
+    display: inline-block;
+    padding-left: 78px;
+    padding-right: 40px;
+    width: 100%;
+    background-color: rgb(7, 67, 7); 
+    color: white
+    
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+/*Tablet screens*/
+@media only screen and (min-width: 768px) {
+    
+
+} 
+
+/*Desktop screens*/
+@media only screen and (min-width: 992px) {
+
+
+} 
+  
+
